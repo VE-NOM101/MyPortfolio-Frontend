@@ -3,6 +3,7 @@
         <NavbarMain />
         <HeroMain />
         <HeroGradient />
+        <SubHeroSection />
         <RouterView />
     </main>
 </template>
@@ -11,6 +12,7 @@
 import HeroGradient from '@/components/landing/heroSection/HeroGradient.vue';
 import HeroMain from '@/components/landing/heroSection/HeroMain.vue';
 import NavbarMain from '@/components/landing/navbar/NavbarMain.vue';
+import SubHeroSection from '@/components/landing/subHeroSection/subHeroSection.vue';
 
 import { RouterView } from 'vue-router';
 </script>
