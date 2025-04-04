@@ -4,11 +4,13 @@
         <HeroMain />
         <HeroGradient />
         <SubHeroSection />
+        <AboutMeMain />
         <RouterView />
     </main>
 </template>
 
 <script setup>
+import AboutMeMain from '@/components/landing/aboutMeSection/aboutMeMain.vue';
 import HeroGradient from '@/components/landing/heroSection/HeroGradient.vue';
 import HeroMain from '@/components/landing/heroSection/HeroMain.vue';
 import NavbarMain from '@/components/landing/navbar/NavbarMain.vue';
