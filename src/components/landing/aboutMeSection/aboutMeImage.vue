@@ -1,6 +1,6 @@
 <template>
     <div class="h-[500px] w-[300px] relative">
-        <div class="h-[500px] w-[300px] rounded-[100px] absolute overflow-hidden">
+        <div class="h-[500px] w-[300px] rounded-[100px] absolute overflow-hidden shadow-xl/30">
             <img src="../../../../assets/aboutme.png" alt="About Me Image" class="h-full w-auto object-cover" />
         </div>
         <div

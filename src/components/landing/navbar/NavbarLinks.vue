@@ -1,6 +1,6 @@
 <template>
-    <ul class="flex lg:flex-row sm:flex-col gap-6 text-white font-body lg:relative sm:absolute sm:top-[120%] text-center left-[50%] -translate-x-[50%] lg:text-md sm:text-xl sm:rounded-2xl sm:bg-cyan/30 lg:bg-transparent 
-       sm:backdrop-blur-md lg:backdrop-blur-0  sm:w-full py-4">
+    <ul
+        class="flex lg:flex-row sm:flex-col gap-6 text-white font-body lg:relative sm:absolute sm:top-[120%] text-center left-[50%] -translate-x-[50%] lg:text-md sm:text-xl sm:rounded-2xl sm:bg-darkGrey sm:shadow-lg sm:shadow-cyan/50 lg:shadow-none lg:bg-transparent sm:w-full py-4">
         <li v-for="(item, index) in links" :key="index" class="group">
             <a href="#" class="cursor-pointer text-white sm:hover:text-orange 
           lg:hover:text-cyan 

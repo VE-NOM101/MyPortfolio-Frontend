@@ -1,7 +1,7 @@
 <template>
     <nav class="max-w-[1300px] mx-auto w-full  px-4 fixed left-[50%] -translate-x-[50%] z-20 flex gap-4 mt-2">
         <div
-            class="flex justify-between w-full max-w-[1200px] mx-auto  bg-black/60 items-center p-6 rounded-r-full rounded-l-full border-orange border-[0.5px] ">
+            class="flex justify-between w-full max-w-[1200px] mx-auto  bg-black/60 items-center p-6 rounded-r-full rounded-l-full border-orange border-[0.5px] sm:backdrop-blur-md lg:backdrop-blur-0 ">
             <NavbarLogo />
 
             <div :class="[isOpen ? 'sm:block' : 'sm:hidden', 'lg:block']">
