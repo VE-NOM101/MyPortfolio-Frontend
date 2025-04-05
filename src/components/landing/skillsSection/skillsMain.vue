@@ -39,9 +39,7 @@ import SkillsText from './skillsText.vue';
 import { ref } from 'vue'
 import { AkCircleMinusFill } from '@kalimahapps/vue-icons';
 import { BsPlusCircleFill } from '@kalimahapps/vue-icons';
-import { AkNodeFill, CoBrandMysql, BxMongodb, BxTailwindCss, CoBrandLaravel, TaBrandCpp, AkPhpFill, AkJavascriptFill, AkVueFill, AnFilledAndroid, CaLogoJupyter, AkPythonFill } from '@kalimahapps/vue-icons';
-
-
+import { SiHiveBlockchain, AkNodeFill, CoBrandMysql, BxMongodb, BxTailwindCss, CoBrandLaravel, TaBrandCpp, AkPhpFill, AkJavascriptFill, AkVueFill, AnFilledAndroid, CaLogoJupyter, AkPythonFill } from '@kalimahapps/vue-icons';
 const showLarge = ref(true) // Toggle state
 const skills = [
     { skill: 'Vue', icon: AkVueFill },
@@ -56,5 +54,6 @@ const skills = [
     { skill: 'Android', icon: AnFilledAndroid },
     { skill: 'Python', icon: AkPythonFill },
     { skill: 'Cpp', icon: TaBrandCpp },
+    { skill: 'Blockchain', icon: SiHiveBlockchain },
 ]
 </script>
