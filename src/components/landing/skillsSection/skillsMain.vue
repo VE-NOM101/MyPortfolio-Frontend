@@ -5,15 +5,29 @@
             <div>
                 <SkillsText />
             </div>
-            <div class="bottom-[50px] absolute left-[50%] -translate-x-[50%] sm:hidden lg:block">
-                <AllSkills :skills="skills" />
+            <div>
+                <div v-if="showLarge" class="bottom-[50px] absolute left-[50%] -translate-x-[50%] sm:hidden lg:block">
+                    <AllSkills :skills="skills" />
+                    <button
+                        class="text-2xl absolute -right-12 bottom-[50%] p-2 rounded-2xl hover:text-grey hover:bg-orange bg-cyan/60 border-2 text-white sm:hidden lg:block"
+                        @click="showLarge = !showLarge">
+                        <BsPlusCircleFill />
+                    </button>
+                </div>
+                <div v-else>
+                    <AllSkillsSM :skills="skills" />
+                    <button
+                        class="text-2xl absolute bottom-[10%] p-2 rounded-2xl hover:text-grey hover:bg-cyan bg-orange/60 border-2 text-white sm:hidden lg:block"
+                        @click="showLarge = !showLarge">
+                        <AkCircleMinusFill />
+                    </button>
+                </div>
             </div>
+
             <div class="sm:block lg:hidden">
                 <AllSkillsSM :skills="skills" />
             </div>
-            <!-- <div class="bottom-[50px] absolute right-0">
-                <button class="p-5">Button</button>
-            </div> -->
+
         </div>
     </div>
 </template>
@@ -22,8 +36,13 @@
 import AllSkills from './allSkills.vue';
 import AllSkillsSM from './allSkillsSM.vue';
 import SkillsText from './skillsText.vue';
-
+import { ref } from 'vue'
+import { AkCircleMinusFill } from '@kalimahapps/vue-icons';
+import { BsPlusCircleFill } from '@kalimahapps/vue-icons';
 import { AkNodeFill, CoBrandMysql, BxMongodb, BxTailwindCss, CoBrandLaravel, TaBrandCpp, AkPhpFill, AkJavascriptFill, AkVueFill, AnFilledAndroid, CaLogoJupyter, AkPythonFill } from '@kalimahapps/vue-icons';
+
+
+const showLarge = ref(true) // Toggle state
 const skills = [
     { skill: 'Vue', icon: AkVueFill },
     { skill: 'JS', icon: AkJavascriptFill },
