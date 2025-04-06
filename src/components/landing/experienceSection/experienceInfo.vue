@@ -7,8 +7,5 @@
 </template>
 
 <script setup>
-defineProps({
-    number: Number,
-    text: Text,
-});
+defineProps(['number', 'text']);
 </script>

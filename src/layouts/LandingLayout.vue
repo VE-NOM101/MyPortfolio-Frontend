@@ -8,10 +8,10 @@
         <SkillsMain />
         <SubSkill />
         <ExperienceMain />
+        <ProjectMain />
         <AwardMain />
         <ContactMeMain />
         <FooterMain />
-        <RouterView />
     </main>
 </template>
 
@@ -27,6 +27,8 @@ import AwardMain from '@/components/landing/awardSection/awardMain.vue';
 import SkillsMain from '@/components/landing/skillsSection/skillsMain.vue';
 import SubSkill from '@/components/landing/skillsSection/subSkill.vue';
 import SubHeroSection from '@/components/landing/subHeroSection/subHeroSection.vue';
+import ProjectMain from '@/components/landing/projectSection/projectMain.vue';
+
 
 import { RouterView } from 'vue-router';
 </script>
