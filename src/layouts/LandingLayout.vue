@@ -8,7 +8,7 @@
         <SkillsMain />
         <SubSkill />
         <ExperienceMain />
-        <ProjectMain />
+        <AwardMain />
         <ContactMeMain />
         <FooterMain />
         <RouterView />
@@ -23,7 +23,7 @@ import FooterMain from '@/components/landing/footerSection/footerMain.vue';
 import HeroGradient from '@/components/landing/heroSection/HeroGradient.vue';
 import HeroMain from '@/components/landing/heroSection/HeroMain.vue';
 import NavbarMain from '@/components/landing/navbar/NavbarMain.vue';
-import ProjectMain from '@/components/landing/projectSection/projectMain.vue';
+import AwardMain from '@/components/landing/awardSection/awardMain.vue';
 import SkillsMain from '@/components/landing/skillsSection/skillsMain.vue';
 import SubSkill from '@/components/landing/skillsSection/subSkill.vue';
 import SubHeroSection from '@/components/landing/subHeroSection/subHeroSection.vue';

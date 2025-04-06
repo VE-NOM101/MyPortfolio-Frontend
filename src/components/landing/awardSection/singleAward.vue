@@ -16,12 +16,6 @@
                 align === 'left' ? 'md:text-right' : 'md:text-left']">
                 {{ year }}
             </h2>
-            <a href={{link}} :class="['text-lg', 'flex gap-2', 'items-center', 'text-cyan', 'hover:text-orange', 'transition-all',
-                'duration-500', 'cursor-pointer', 'sm:justify-self-center', align === 'left' ? 'md:justify-self-end'
-                    : 'md:justify-self-start']">
-                View
-                <BsArrowRightCircleFill />
-            </a>
         </div>
         <div
             class="max-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 ralative border border-white">
@@ -40,8 +34,7 @@ const props = defineProps({
     year: String,
     align: String,
     image: String,
-    link: String
 })
 
-const { name, year, align, image, link } = props
+const { name, year, align, image } = props
 </script>
