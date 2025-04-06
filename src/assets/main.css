@@ -39,6 +39,7 @@
   --cyanMediumShadow: 10px 10px 200px 150px rgba(94, 206, 220, 0.5);
   --orangeBigShadow: 10px 10px 10000px 500px rgba(240, 169, 79, 0.3);
   --orangeMediumShadow: 10px 10px 2000px 150px rgba(240, 169, 79, 0.5);
+  --orangeShadow: 10px 10px 2000px 150px rgba(240, 169, 79, 0.3);
 }
 
 body {

@@ -1,6 +1,6 @@
 <template>
     <ul
-        class="flex lg:flex-row sm:flex-col gap-6 text-white font-body lg:relative sm:absolute sm:top-[120%] text-center left-[50%] -translate-x-[50%] lg:text-md sm:text-xl sm:rounded-2xl sm:bg-darkGrey sm:shadow-lg sm:shadow-cyan/50 lg:shadow-none lg:bg-transparent sm:w-full py-4">
+        class="flex lg:flex-row sm:flex-col gap-6 text-white font-body lg:relative sm:absolute sm:top-[120%] text-center left-[50%] -translate-x-[50%] lg:text-[18px] sm:text-[20px] sm:rounded-2xl sm:bg-darkGrey sm:shadow-lg sm:shadow-cyan/50 lg:shadow-none lg:bg-transparent sm:w-full py-4">
         <li v-for="(item, index) in links" :key="index" class="group">
             <a :href="`#${item.section}`" v-smooth-scroll class="cursor-pointer text-white sm:hover:text-orange 
           lg:hover:text-cyan 
@@ -19,7 +19,7 @@ const links = [
     { link: "Skills", section: "skills" },
     { link: "Experience", section: "experience" },
     { link: "Projects", section: "projects" },
-    { link: "Awards", section: "awards" },
+    { link: "Education", section: "education" },
     { link: "Contact", section: "contact" },
 ];
 
