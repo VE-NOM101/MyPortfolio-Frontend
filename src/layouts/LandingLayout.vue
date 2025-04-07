@@ -11,6 +11,7 @@
         <ProjectMain />
         <EducationMain />
         <ContactMeMain />
+        <ScrollToTop />
         <FooterMain />
     </main>
 </template>
@@ -29,5 +30,6 @@ import SubSkill from '@/components/landing/skillsSection/subSkill.vue';
 import SubHeroSection from '@/components/landing/subHeroSection/subHeroSection.vue';
 import ProjectMain from '@/components/landing/projectSection/projectMain.vue';
 import EducationMain from '@/components/landing/educationSection/educationMain.vue';
+import ScrollToTop from '@/components/landing/scrollToTop.vue';
 
 </script>
