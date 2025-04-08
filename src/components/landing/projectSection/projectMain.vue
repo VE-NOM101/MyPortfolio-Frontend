@@ -1,22 +1,24 @@
 <!-- App.vue -->
 <template>
     <div id="projects" class="max-w-[1200px] mx-auto px-4">
-        <div>
+        <div v-motion="fadeIn('down', 0)">
             <ProjectText />
         </div>
-        <div>
+        <div v-motion="fadeIn('down', 0)">
             <ProjectTop />
         </div>
         <div class="w-full h-1 mt-2 bg-lightBrown lg:block sm:hidden"></div>
 
         <div class="mt-12 flex flex-wrap md:flex-row sm:flex-col items-center justify-center gap-12">
-            <SingleProjectCard v-for="(project, index) in projects" :key="index" :project="project" />
+            <SingleProjectCard v-motion-pop-visible-once v-for="(project, index) in projects" :key="index"
+                :project="project" />
         </div>
 
     </div>
 </template>
 
 <script setup>
+import { fadeIn } from '../framerMotion/variants';
 import ProjectText from './projectText.vue';
 import ProjectTop from './projectTop.vue';
 import SingleProjectCard from './singleProjectCard.vue';

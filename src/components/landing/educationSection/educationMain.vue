@@ -6,8 +6,8 @@
         <div class="flex flex-col justify-center items-center gap-4 max-w-[900px] mx-auto mt-12">
             <template v-for="(item, index) in awards" :key="index">
                 <AkArrowUpThick :class="['flex', 'text-orange', 'text-2xl', index == 0 ? 'hidden' : 'block']" />
-                <singleEducation :name="item.name" :year="item.year" :institute="item.institute" :remark="item.remark"
-                    :place="item.place" />
+                <singleEducation v-motion-roll-visible-once-left :duration="500" :name="item.name" :year="item.year"
+                    :institute="item.institute" :remark="item.remark" :place="item.place" />
             </template>
 
         </div>

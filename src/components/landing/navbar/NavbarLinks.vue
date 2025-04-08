@@ -14,12 +14,14 @@
     </ul>
 </template>
 <script setup>
+
 const links = [
     { link: "About Me", section: "about" },
     { link: "Skills", section: "skills" },
     { link: "Experience", section: "experience" },
     { link: "Projects", section: "projects" },
     { link: "Education", section: "education" },
+    { link: "Awards", section: "awards" },
     { link: "Contact", section: "contact" },
 ];
 

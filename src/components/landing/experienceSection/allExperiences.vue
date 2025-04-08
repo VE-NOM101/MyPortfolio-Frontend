@@ -3,12 +3,14 @@
         <template v-for="(item, index) in experiences" :key="index">
             <SingleExperience :experience="item" />
             <div v-if="index < experiences.length - 1" class="lg:block sm:hidden">
-                <CgArrowLongRightC class="text-6xl text-orange" />
+                <CgArrowLongRightC v-motion="fadeIn('right', 0)" class="text-6xl text-orange" />
             </div>
         </template>
     </div>
 </template>
 <script setup>
+
+import { fadeIn } from '../framerMotion/variants';
 import SingleExperience from './singleExperience.vue';
 import { CgArrowLongRightC } from '@kalimahapps/vue-icons';
 const experiences = [

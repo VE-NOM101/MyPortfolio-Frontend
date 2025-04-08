@@ -1,5 +1,5 @@
 <template>
-    <div :class="[
+    <div v-motion="getMotion" :class="[
         'flex',
         'w-full',
         'sm:flex-col-reverse',
@@ -28,7 +28,9 @@
 </template>
 
 <script setup>
-import { BsArrowRightCircleFill } from '@kalimahapps/vue-icons';
+
+import { fadeIn } from '../framerMotion/variants';
+
 const props = defineProps({
     name: String,
     year: String,
@@ -36,5 +38,7 @@ const props = defineProps({
     image: String,
 })
 
-const { name, year, align, image } = props
+const { name, year, align, image } = props;
+
+const getMotion = align === 'left' ? fadeIn('left', 0) : fadeIn('right', 0);
 </script>

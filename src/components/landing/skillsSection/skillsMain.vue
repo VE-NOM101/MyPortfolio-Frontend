@@ -1,11 +1,11 @@
 <template>
 
     <div id="skills">
-        <div class="max-w-[1200px] px-4 mx-auto min-h-[600px] relative overflow-hidden">
+        <div v-motion="fadeIn('down', 0.2)" class="max-w-[1200px] px-4 mx-auto min-h-[600px] relative overflow-hidden">
             <div>
                 <SkillsText />
             </div>
-            <div>
+            <div v-if="safety">
                 <div v-if="showLarge" class="bottom-[50px] absolute left-[50%] -translate-x-[50%] sm:hidden lg:block">
                     <AllSkills :skills="skills" />
                     <button
@@ -36,11 +36,13 @@
 import AllSkills from './allSkills.vue';
 import AllSkillsSM from './allSkillsSM.vue';
 import SkillsText from './skillsText.vue';
-import { ref } from 'vue'
+import { ref, watchEffect } from 'vue'
 import { AkCircleMinusFill } from '@kalimahapps/vue-icons';
 import { BsPlusCircleFill } from '@kalimahapps/vue-icons';
+
 import { SiHiveBlockchain, AkNodeFill, CoBrandMysql, BxMongodb, BxTailwindCss, CoBrandLaravel, TaBrandCpp, AkPhpFill, AkJavascriptFill, AkVueFill, AnFilledAndroid, CaLogoJupyter, AkPythonFill } from '@kalimahapps/vue-icons';
-const showLarge = ref(true) // Toggle state
+let showLarge = ref(true); // Toggle state
+let safety = ref(true);
 const skills = [
     { skill: 'Vue', icon: AkVueFill },
     { skill: 'JS', icon: AkJavascriptFill },
@@ -56,4 +58,18 @@ const skills = [
     { skill: 'Cpp', icon: TaBrandCpp },
     { skill: 'Blockchain', icon: SiHiveBlockchain },
 ]
+
+import { useMediaQuery } from '@vueuse/core'
+import { fadeIn } from '../framerMotion/variants';
+
+const isLargeScreen = useMediaQuery('(min-width: 1024px)');
+
+watchEffect(() => {
+    console.log(safety.value);
+    if (isLargeScreen.value) {
+        safety.value = true;
+    } else {
+        safety.value = false;
+    }
+})
 </script>

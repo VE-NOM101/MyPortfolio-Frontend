@@ -10,6 +10,7 @@
         <ExperienceMain />
         <ProjectMain />
         <EducationMain />
+        <AwardMain />
         <ContactMeMain />
         <ScrollToTop />
         <FooterMain />
@@ -31,5 +32,8 @@ import SubHeroSection from '@/components/landing/subHeroSection/subHeroSection.v
 import ProjectMain from '@/components/landing/projectSection/projectMain.vue';
 import EducationMain from '@/components/landing/educationSection/educationMain.vue';
 import ScrollToTop from '@/components/landing/scrollToTop.vue';
+import Practice from '@/components/landing/framerMotion/practice.vue';
+import AwardMain from '@/components/landing/awardSection/awardMain.vue';
+
 
 </script>

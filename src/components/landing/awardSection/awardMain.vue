@@ -1,6 +1,6 @@
 <template>
     <div id="awards" class="max-w-[1200px] mx-auto px-4">
-        <div>
+        <div v-motion="fadeIn('down', 0)">
             <awardText />
         </div>
         <div class="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
@@ -13,6 +13,8 @@
 </template>
 
 <script setup>
+
+import { fadeIn } from '../framerMotion/variants';
 import awardText from './awardText.vue';
 import singleAward from './singleAward.vue';
 

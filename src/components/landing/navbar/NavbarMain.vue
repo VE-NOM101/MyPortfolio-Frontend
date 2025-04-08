@@ -21,6 +21,7 @@
 </template>
 
 <script setup>
+
 import NavbarBtn from './NavbarBtn.vue';
 import NavbarLinks from './NavbarLinks.vue';
 import NavbarLogo from './NavbarLogo.vue';
