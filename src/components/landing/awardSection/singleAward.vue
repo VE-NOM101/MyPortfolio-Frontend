@@ -40,5 +40,5 @@ const props = defineProps({
 
 const { name, year, align, image } = props;
 
-const getMotion = align === 'left' ? fadeIn('left', 0) : fadeIn('right', 0);
+const getMotion = align === 'left' ? fadeIn('left', 200) : fadeIn('right', 200);
 </script>

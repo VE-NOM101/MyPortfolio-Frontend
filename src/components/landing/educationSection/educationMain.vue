@@ -30,7 +30,7 @@ const awards = [
         name: "BSc in Computer Science and Engineering",
         year: "Mar 2022-Present",
         institute: "Khulna University of Engineering and Technology",
-        remark: "CGPA: 3.90 out of 4.00 (Currently)",
+        remark: "CGPA: 3.90 out of 4.00 (Till 5th Semester)",
         place: "Khulna, Bangladesh"
     },
     {

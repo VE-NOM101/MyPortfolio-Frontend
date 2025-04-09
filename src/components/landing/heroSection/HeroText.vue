@@ -14,13 +14,13 @@
             class="lg:text-[20px] sm:text-lg mt-4 text-white lg:max-w-[600px] md:max-w-[450px] sm:max-w-[400px]">
             A passionate CSE engineer with experience in <span class="text-cyan">web development</span>,<span
                 class="text-orange"> app development</span>,<span class="text-cyan"> backend development</span>,
-            <span class="text-orange">data-science</span>, & <span class="text-cyan">machine-learning</span>.
+            <span class="text-orange">blockchain development</span>, & <span class="text-cyan">machine-learning</span>.
             Dedicated to building innovative solutions and sharing knowledge to empower others.
         </p>
     </div>
 </template>
 <script setup>
 import { MdEngineering } from '@kalimahapps/vue-icons';
-import { fadeIn, textGlow } from '../framerMotion/variants';
+import { fadeIn } from '../framerMotion/variants';
 
 </script>

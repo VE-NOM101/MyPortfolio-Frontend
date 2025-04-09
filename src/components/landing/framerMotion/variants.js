@@ -39,7 +39,7 @@ export const motionShake = {
   initial: {
     x: 0,
   },
-  enter: {
+  visible: {
     x: 5,
     transition: {
       duration: 250,
@@ -49,6 +49,24 @@ export const motionShake = {
   },
   hovered: {
     x: 0,
+    transition: {},
+  },
+}
+
+export const scrollBtnAnim = {
+  initial: {
+    y: -20,
+  },
+  visible: {
+    y: 0,
+    transition: {
+      duration: 250,
+      repeat: Infinity,
+      repeatType: 'reverse',
+    },
+  },
+  hovered: {
+    y: -20,
     transition: {},
   },
 }
