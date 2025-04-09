@@ -20,7 +20,7 @@
 
         <!-- Experience Top Middle -->
         <div class="lg:w-[35%] md:w-[50%] sm:w-[80%]">
-            <img src="../../../../assets/experience.png" alt="my experience" />
+            <img src="/assets/experience.png" alt="my experience" />
         </div>
         <!--ExperienceTopRight  -->
         <div class="xl:w-[25%] lg:w-[30%] border border-lightBrown p-4 rounded-xl">
