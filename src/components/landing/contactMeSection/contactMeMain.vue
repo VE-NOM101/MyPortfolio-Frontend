@@ -17,7 +17,7 @@
 
             <!-- <ContactMeRight /> -->
             <div class="flex flex-col items-center justify-center gap-12">
-                <img src="../../../../assets/email-image.png" alt="email image" class="max-w-[300px]" />
+                <img src="/assets/email-image.png" alt="email image" class="max-w-[300px]" />
                 <ContactInfo />
                 <ContactSocial />
             </div>
