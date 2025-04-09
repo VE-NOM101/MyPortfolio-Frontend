@@ -31,7 +31,7 @@ const projects = [
         frontend: ['XML'],
         backend: ['Java'],
         database: ['Firebase'],
-        img: '../../../../assets/website-img-1.jpg',
+        img: '/assets/website-img-1.jpg',
         github_link: '#',
     },
     {
@@ -41,7 +41,7 @@ const projects = [
         frontend: ['HTML', 'CSS', 'Bootstrap 4'],
         backend: ['Larvel'],
         database: ['MySQL'],
-        img: '../../../../assets/website-img-1.jpg',
+        img: '/assets/website-img-1.jpg',
         github_link: '#',
     },
     {
@@ -51,7 +51,7 @@ const projects = [
         frontend: ['Vue JS'],
         backend: ['Laravel'],
         database: ['MySQL'],
-        img: '../../../../assets/website-img-1.jpg',
+        img: '/assets/website-img-1.jpg',
         github_link: '#',
     },
     {
@@ -61,7 +61,7 @@ const projects = [
         frontend: ['Vue JS', 'Tailwind CSS'],
         backend: ['Node JS', 'Express JS'],
         database: ['MongoDB'],
-        img: '../../../../assets/website-img-1.jpg',
+        img: '/assets/website-img-1.jpg',
         github_link: '#',
     },
 ]

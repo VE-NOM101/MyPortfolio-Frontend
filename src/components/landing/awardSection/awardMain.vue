@@ -23,31 +23,31 @@ const awards = [
         name: "University Dean Award, KUET",
         year: "2024",
         align: "right",
-        image: "../../../../assets/website-img-1.jpg",
+        image: "/assets/website-img-1.jpg",
     },
     {
         name: "University Dean Award, KUET",
         year: "2023",
         align: "left",
-        image: "../../../../assets/website-img-2.webp",
+        image: "/assets/website-img-2.webp",
     },
     {
         name: "University Dean Award, KUET",
         year: "2022",
         align: "right",
-        image: "../../../../assets/website-img-3.jpg",
+        image: "/assets/website-img-3.jpg",
     },
     {
         name: "Datch Bangla Bank Scholarship",
         year: "2018",
         align: "left",
-        image: "../../../../assets/website-img-4.jpg",
+        image: "/assets/website-img-4.jpg",
     },
     {
         name: "JSC-General Scholarship",
         year: "2016",
         align: "right",
-        image: "../../../../assets/website-img-4.jpg",
+        image: "/assets/website-img-4.jpg",
     },
 ];
 </script>

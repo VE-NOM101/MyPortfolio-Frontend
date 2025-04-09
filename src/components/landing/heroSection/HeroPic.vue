@@ -1,7 +1,7 @@
 <template>
 
     <div v-motion="fadeIn('left', 200)" class=" h-full flex items-center justify-center">
-        <img src="../../../../assets/profile.png" alt="Choyan Barua" class="max-h-[450px] w-auto rounded-full" />
+        <img src="/assets/profile.png" alt="Choyan Barua" class="max-h-[450px] w-auto rounded-full" />
         <div class=" absolute -z-10 flex justify-center items-center animate-pulse ">
 
             <PhHexagon
