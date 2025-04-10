@@ -12,7 +12,7 @@
             <NavbarBtn />
             <!-- navbar toggler -->
             <div class="absolute right-5">
-                <button class="flex lg:hidden sm:block p-2 text-[30px] rounded-full text-whiteV2 " @click="toggleMenu">
+                <button class="flex lg:hidden sm:block p-2 text-[30px] rounded-full text-whiteV " @click="toggleMenu">
                     <CgMenu :class="[
                         'hover:text-pink-500 bg-clip-text transition-all duration-500 transform',
                         isOpen ? 'rotate-90' : ''

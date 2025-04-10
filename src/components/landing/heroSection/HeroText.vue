@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col gap-4 h-full justify-center md:text-left sm:text-center text-whiteV2">
+    <div class="flex flex-col gap-4 h-full justify-center md:text-left sm:text-center text-whiteV">
         <div v-motion="fadeIn('down', 200)" class="flex lg:text-2xl sm:text-xl uppercase ">
             <MdEngineering />
             <h2>

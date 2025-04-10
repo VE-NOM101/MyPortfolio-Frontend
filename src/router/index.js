@@ -3,12 +3,16 @@ import LandingLayout from '@/layouts/LandingLayout.vue'
 import AdminLayout from '@/layouts/AdminLayout.vue'
 import LandingPage from '@/views/landing/LandingPage.vue'
 import Dashboard from '@/views/admin/Dashboard.vue'
+import MoreAboutMe from '@/views/landing/MoreAboutMe.vue'
 
 const routes = [
   {
     path: '/',
     component: LandingLayout,
-    children: [{ path: '', component: LandingPage }],
+    children: [
+      { path: '', component: LandingPage },
+      { path: 'more-about-me', component: MoreAboutMe },
+    ],
   },
   {
     path: '/admin',

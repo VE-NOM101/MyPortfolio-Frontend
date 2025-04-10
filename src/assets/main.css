@@ -18,6 +18,7 @@
   --font-special: 'Nunito';
   --font-roboto: 'Roboto';
   --font-logo: 'Exo 2';
+
   /* --color-brown: #53423e;
   --color-lightBrown: #645550;
   --color-darkBrown: #2c2523;
@@ -37,7 +38,8 @@
   --color-lightBluish: #29296b;
   --color-darkBluish: #050514;
   --color-black: #03030d;
-  --color-whiteV2: #e0e0e0;
+
+  --color-whiteV: #f1e1d9;
 
   --color-cyan: #06b6d4;
   --color-lightCyan: #88e5f0;
@@ -61,6 +63,6 @@
   --orangeShadow: 10px 10px 2000px 150px rgba(240, 169, 79, 0.3);
 
   --greenMediumShadow: 10px 10px 200px 150px rgba(94, 220, 172, 0.5);
-
+  --purpleShadow: 0px 0px 20px 0px rgba(70, 40, 180, 0.5);
   --purpleMediumShadow: 10px 10px 2000px 150px rgba(70, 40, 180, 0.5);
 }

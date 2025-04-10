@@ -1,6 +1,7 @@
 <template>
     <div class="flex flex-col md:items-start sm:items-center md:text-left sm:text-center">
-        <h2 class="text-6xl text-cyan mb-10">
+        <h2
+            class="text-6xl bg-gradient-to-r from-bluish  via-pink-500  to-purple-500  bg-clip-text text-transparent mb-10">
             About Me
         </h2>
         <p class="text-lg">
@@ -13,9 +14,9 @@
             problems. I'm always excited to explore new tools and contribute to innovative projects that make a
             difference.
         </p>
-        <button
-            class="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center">
+        <router-link to="/more-about-me"
+            class="border border-purple-500 rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:scale-[110%] hover:shadow-(--cyanShadow) transition-all duration-500 cursor-pointer md:self-start sm:self-center">
             More About Me
-        </button>
+        </router-link>
     </div>
 </template>
