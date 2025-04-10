@@ -1,5 +1,5 @@
 <template>
-    <div id="awards" class="max-w-[1200px] mx-auto px-4">
+    <div id="awards" class="relative max-w-[1200px] mx-auto px-4">
         <div v-motion="fadeIn('down', 0)">
             <awardText />
         </div>
@@ -9,6 +9,8 @@
             </template>
 
         </div>
+
+        <div class=" shadow-(--purpleMediumShadow) absolute top-[50%] left-[50%] -z-10 animate-pulse"></div>
     </div>
 </template>
 

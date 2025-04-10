@@ -10,9 +10,8 @@
     <ProjectMain />
     <EducationMain />
     <PaperMain />
+    <AwardMain />
     <!--
-        
-        <AwardMain />
         <ContactMeMain />
         <ScrollToTop />
         <FooterMain /> -->
