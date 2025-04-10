@@ -11,7 +11,6 @@
             </template>
 
         </div>
-
         <!-- Gradient -->
         <div>
             <div class="  shadow-(--cyanMediumShadow) absolute top-[500px] left-0 -z-10 animate-pulse"></div>
