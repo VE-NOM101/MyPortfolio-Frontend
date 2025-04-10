@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import 'tailwindcss';
 @custom-variant dark (&:where(.dark, .dark *));
 @theme {
-  --breakpoint-sm: 350px;
+  /*--breakpoint-sm: 350px;*/
+
+  --breakpoint-sm: 300px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 1024px;
   --breakpoint-xl: 1280px;
@@ -14,7 +17,7 @@
   --font-body: 'Josefin Sans';
   --font-special: 'Nunito';
   --font-roboto: 'Roboto';
-
+  --font-logo: 'Exo 2';
   /* --color-brown: #53423e;
   --color-lightBrown: #645550;
   --color-darkBrown: #2c2523;
@@ -29,7 +32,6 @@
   --color-grey: #626965;
   --color-lightGrey: #978580;
   --color-darkGrey: #3f4441; */
-
   --color-bluish: #15153b;
   --color-lightBluish: #29296b;
   --color-darkBluish: #050514;
