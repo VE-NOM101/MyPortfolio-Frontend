@@ -3,9 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 @import 'tailwindcss';
-
 @custom-variant dark (&:where(.dark, .dark *));
-
 @theme {
   --breakpoint-sm: 350px;
   --breakpoint-md: 768px;
@@ -17,7 +15,7 @@
   --font-special: 'Nunito';
   --font-roboto: 'Roboto';
 
-  --color-brown: #53423e;
+  /* --color-brown: #53423e;
   --color-lightBrown: #645550;
   --color-darkBrown: #2c2523;
   --color-black: #1e1917;
@@ -25,6 +23,23 @@
   --color-cyan: #15d1e9;
   --color-lightCyan: #88e5f0;
   --color-darkCyan: #009fb3;
+  --color-orange: #fb9718;
+  --color-lightOrange: #fac27b;
+  --color-darkOrange: #d28422;
+  --color-grey: #626965;
+  --color-lightGrey: #978580;
+  --color-darkGrey: #3f4441; */
+
+  --color-bluish: #15153b;
+  --color-lightBluish: #29296b;
+  --color-darkBluish: #050514;
+  --color-black: #03030d;
+  --color-whiteV2: #e0e0e0;
+
+  --color-cyan: #06b6d4;
+  --color-lightCyan: #88e5f0;
+  --color-darkCyan: #009fb3;
+
   --color-orange: #fb9718;
   --color-lightOrange: #fac27b;
   --color-darkOrange: #d28422;
@@ -40,8 +55,4 @@
   --orangeBigShadow: 10px 10px 10000px 500px rgba(240, 169, 79, 0.3);
   --orangeMediumShadow: 10px 10px 2000px 150px rgba(240, 169, 79, 0.5);
   --orangeShadow: 10px 10px 2000px 150px rgba(240, 169, 79, 0.3);
-}
-
-body {
-  @apply bg-darkBrown;
 }

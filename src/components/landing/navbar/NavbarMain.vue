@@ -1,22 +1,22 @@
 <template>
     <nav class="max-w-[1300px] mx-auto w-full  px-4 fixed left-[50%] -translate-x-[50%] z-20 flex gap-4 mt-2">
         <div
-            class="flex justify-between w-full max-w-[1200px] mx-auto  bg-black/60 items-center p-6 rounded-r-full rounded-l-full border-orange border-[0.5px] sm:backdrop-blur-md lg:backdrop-blur-0 ">
+            class="relative flex sm:justify-around lg:justify-between w-full max-w-[1200px] mx-auto  bg-black/60 items-center py-2 px-4 rounded-r-full rounded-l-full border-orange border-[0.5px] sm:backdrop-blur-md lg:backdrop-blur-0 ">
             <NavbarLogo />
 
             <div :class="[isOpen ? 'sm:block' : 'sm:hidden', 'lg:block']">
                 <NavbarLinks />
             </div>
+
             <NavbarBtn />
-        </div>
+            <!-- navbar toggler -->
+            <div class="absolute right-5">
+                <button class="flex lg:hidden sm:block p-2 text-[30px] rounded-full text-whiteV2 " @click="toggleMenu">
+                    <CgMenu class="hover:text-pink-500 bg-clip-text" />
+                </button>
+            </div>
 
-        <div
-            class="flex lg:hidden sm:block p-6 bg-black/60 backdrop-blur-md items-center justify-center rounded-full  border-orange border-[0.5px] ">
-            <button class="text-lg p-3 border border-orange rounded-full text-white" @click="toggleMenu">
-                <CgMenu />
-            </button>
         </div>
-
     </nav>
 </template>
 

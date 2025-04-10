@@ -1,8 +1,8 @@
 <template>
-    <div v-motion="motionShake">
+    <div v-motion="motionShake" class="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500">
         <button
-            class=" px-4 py-2 rounded-full text-xl font-bold font-body text-white border-cyan border flex items-center gap-1 bg-gradient-to-r  from-darkCyan to-orange transition-all duration-500 hover:scale-110 hover:border-orange cursor-pointer hover:shadow-(--cyanShadow)">
-            Download CV
+            class=" transition-all duration-500 hover:scale-110 flex justify-center items-center text-[18px] bg-white dark:bg-gray-900 rounded-lg p-2 hover:shadow-(--cyanShadow)">
+            Resume
             <div class="sm:hidden md:block">
                 <AkArrowDownRight />
             </div>

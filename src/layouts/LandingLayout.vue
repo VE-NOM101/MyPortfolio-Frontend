@@ -1,7 +1,7 @@
 <template>
     <main class="font-body text-white relative overflow-hidden">
         <NavbarMain />
-        <HeroMain />
+        <!-- <HeroMain />
         <HeroGradient />
         <SubHeroSection />
         <AboutMeMain />
@@ -14,12 +14,11 @@
         <AwardMain />
         <ContactMeMain />
         <ScrollToTop />
-        <FooterMain />
+        <FooterMain /> -->
     </main>
 </template>
 
 <script setup>
-import { RouterView } from 'vue-router';
 import AboutMeMain from '@/components/landing/aboutMeSection/aboutMeMain.vue';
 import ContactMeMain from '@/components/landing/contactMeSection/contactMeMain.vue';
 import ExperienceMain from '@/components/landing/experienceSection/experienceMain.vue';
@@ -35,6 +34,5 @@ import EducationMain from '@/components/landing/educationSection/educationMain.v
 import ScrollToTop from '@/components/landing/scrollToTop.vue';
 import AwardMain from '@/components/landing/awardSection/awardMain.vue';
 import PaperMain from '@/components/landing/paperSection/paperMain.vue';
-
 
 </script>
