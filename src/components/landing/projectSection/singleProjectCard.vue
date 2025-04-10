@@ -1,5 +1,5 @@
 <template>
-    <div class="group p-3 border-2 border-white/50 card group relative z-[1] block h-[460px] w-[340px] cursor-pointer overflow-hidden bg-Grey shadow-[0_0_5px_rgba(0,0,0,0)] transition-all duration-100 ease-linear hover:z-[2] hover:scale-100 hover:shadow-(--purpleShadow) hover:border-purple-600/70"
+    <div class="group p-3 border-2 border-white/50 card group relative z-[1] block h-[460px] w-[320px] cursor-pointer overflow-hidden bg-Grey shadow-[0_0_5px_rgba(0,0,0,0)] transition-all duration-100 ease-linear hover:z-[2] hover:scale-100 hover:shadow-(--purpleShadow) hover:border-purple-600/70"
         href="" target="_blank" ref="card" @mousemove="move" @mouseleave="leave">
         <div class="flex justify-center font-special text-2xl group-hover:text-cyan">
             <h1>{{ project?.title }}</h1>
