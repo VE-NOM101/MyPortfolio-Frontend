@@ -32,6 +32,7 @@
   --color-grey: #626965;
   --color-lightGrey: #978580;
   --color-darkGrey: #3f4441; */
+
   --color-bluish: #15153b;
   --color-lightBluish: #29296b;
   --color-darkBluish: #050514;
@@ -45,6 +46,7 @@
   --color-orange: #fb9718;
   --color-lightOrange: #fac27b;
   --color-darkOrange: #d28422;
+
   --color-grey: #626965;
   --color-lightGrey: #978580;
   --color-darkGrey: #3f4441;
@@ -57,4 +59,8 @@
   --orangeBigShadow: 10px 10px 10000px 500px rgba(240, 169, 79, 0.3);
   --orangeMediumShadow: 10px 10px 2000px 150px rgba(240, 169, 79, 0.5);
   --orangeShadow: 10px 10px 2000px 150px rgba(240, 169, 79, 0.3);
+
+  --greenMediumShadow: 10px 10px 200px 150px rgba(94, 220, 172, 0.5);
+
+  --purpleMediumShadow: 10px 10px 2000px 150px rgba(70, 40, 180, 0.5);
 }

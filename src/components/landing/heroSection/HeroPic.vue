@@ -1,16 +1,11 @@
 <template>
 
-    <div v-motion="fadeIn('left', 200)" class=" h-full flex items-center justify-center">
-        <img src="/assets/profile.png" alt="Choyan Barua" class="max-h-[450px] w-auto rounded-full" />
+    <div v-motion="fadeIn('right', 200)" class=" h-full flex items-center justify-center">
+        <img src="/assets/profile.png" alt="Choyan Barua"
+            class=" grayscale-100 hover:grayscale-0 hover:scale-[110%] transition-all duration-500 max-h-[450px] w-auto rounded-full" />
         <div class=" absolute -z-10 flex justify-center items-center animate-pulse ">
-
             <PhHexagon
-                class=" md:h-[90%] sm:h-[120%] min-h-[480px] w-auto text-cyan blur-[2px] animate-[spin_20s_linear_infinite] rotate-30" />
-        </div>
-        <div class=" absolute -z-11 flex justify-center items-center animate-pulse ">
-
-            <PhHexagon
-                class=" md:h-[90%] sm:h-[120%] min-h-[580px] w-auto text-orange blur-lg animate-[spin_20s_linear_infinite] " />
+                class=" md:h-[90%] sm:h-[120%] min-h-[500px] w-auto text-purple-500/40 blur-lg animate-[spin_10s_linear_infinite] " />
         </div>
     </div>
 

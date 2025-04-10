@@ -1,8 +1,9 @@
 <template>
     <main class="font-body text-white relative overflow-hidden">
         <NavbarMain />
-        <!-- <HeroMain />
+        <HeroMain />
         <HeroGradient />
+        <!--
         <SubHeroSection />
         <AboutMeMain />
         <SkillsMain />
