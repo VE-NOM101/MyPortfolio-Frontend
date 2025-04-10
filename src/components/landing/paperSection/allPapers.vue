@@ -1,6 +1,6 @@
 <template>
     <ol v-motion="fadeIn('right', 0)"
-        class="relative border-s-2 border-darkGrey group-hover:border-s-3 group-hover:border-lightGrey">
+        class="relative border-s-1 border-darkGrey group-hover:border-s-2 group-hover:border-lightGrey">
         <li class="mb-10 ms-6" v-for="(item, index) in papers" :key="index">
             <SinglePaper :paper="item" :latest="index === 0 ? true : false" />
 

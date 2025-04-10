@@ -2,11 +2,11 @@
 
     <div>
         <span
-            class="absolute flex items-center justify-center w-6 h-6 bg-darkBrown rounded-full -start-3 ring-8 ring-cyan">
+            class="absolute flex items-center justify-center w-6 h-6 bg-darkBluish rounded-full -start-3 ring-8 ring-lightBluish">
             <AiResearchgate />
         </span>
         <h3 class="flex items-center mb-1 text-lg font-semibold text-white">
-            {{ paper.title }} <span v-if="latest" class="text-black text-sm font-medium me-2 px-2.5 py-0.5 rounded-full bg-orange
+            {{ paper.title }} <span v-if="latest" class="text-black text-sm font-medium me-2 px-2.5 py-0.5 rounded-full bg-cyan
                 ms-3">Latest</span>
         </h3>
         <time class="block mb-2 text-[16px] font-normal leading-none text-lightGrey">Released

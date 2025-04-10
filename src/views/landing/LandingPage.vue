@@ -9,10 +9,9 @@
     <ExperienceMain />
     <ProjectMain />
     <EducationMain />
+    <PaperMain />
     <!--
         
-        <EducationMain />
-        <PaperMain />
         <AwardMain />
         <ContactMeMain />
         <ScrollToTop />
