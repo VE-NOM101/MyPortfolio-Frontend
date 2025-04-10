@@ -7,9 +7,9 @@
     <SkillsMain />
     <SubSkill />
     <ExperienceMain />
+    <ProjectMain />
     <!--
-        <ExperienceMain />
-        <ProjectMain />
+        
         <EducationMain />
         <PaperMain />
         <AwardMain />

@@ -4,6 +4,7 @@ import AdminLayout from '@/layouts/AdminLayout.vue'
 import LandingPage from '@/views/landing/LandingPage.vue'
 import Dashboard from '@/views/admin/Dashboard.vue'
 import MoreAboutMe from '@/views/landing/MoreAboutMe.vue'
+import ReadProject from '@/views/landing/ReadProject.vue'
 
 const routes = [
   {
@@ -12,6 +13,7 @@ const routes = [
     children: [
       { path: '', component: LandingPage },
       { path: 'more-about-me', component: MoreAboutMe },
+      { path: 'read-project/:id', component: ReadProject },
     ],
   },
   {

@@ -11,7 +11,7 @@
 
         <div class="mt-12 flex flex-wrap md:flex-row sm:flex-col items-center justify-center gap-12">
             <SingleProjectCard v-motion-pop-visible-once v-for="(project, index) in projects" :key="index"
-                :project="project" />
+                :project="project" :id="index" />
         </div>
 
     </div>

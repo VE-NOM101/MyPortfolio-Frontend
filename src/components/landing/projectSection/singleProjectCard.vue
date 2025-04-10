@@ -1,5 +1,5 @@
 <template>
-    <div class="group p-3 border-2 border-orange/50 card group relative z-[1] block h-[460px] w-[340px] cursor-pointer overflow-hidden bg-Grey shadow-[0_0_5px_rgba(0,0,0,0)] transition-all duration-100 ease-linear hover:z-[2] hover:scale-100 hover:shadow-[0_10px_20px_rgba(0,0,0,0.8)] hover:border-orange"
+    <div class="group p-3 border-2 border-white/50 card group relative z-[1] block h-[460px] w-[340px] cursor-pointer overflow-hidden bg-Grey shadow-[0_0_5px_rgba(0,0,0,0)] transition-all duration-100 ease-linear hover:z-[2] hover:scale-100 hover:shadow-(--purpleShadow) hover:border-purple-600/70"
         href="" target="_blank" ref="card" @mousemove="move" @mouseleave="leave">
         <div class="flex justify-center font-special text-2xl group-hover:text-cyan">
             <h1>{{ project?.title }}</h1>
@@ -10,14 +10,14 @@
         <div class="border-1 border-darkGrey w-full group-hover:border-cyan"></div>
 
         <div class="m-2 flex justify-between">
-            <button
-                class="px-3 py-2 border-1 border-darkGrey bg-lightGrey rounded-full text-sm flex items-center gap-1 hover:bg-orange">
+            <router-link :to="`/read-project/${id}`"
+                class="px-3 py-2 border-1 border-darkGrey bg-lightBluish rounded-full text-sm flex items-center gap-1 transition-all duration-500 hover:scale-[110%] hover:shadow-(--cyanShadow)">
                 Read More
                 <AkArrowForwardThick />
-            </button>
+            </router-link>
 
             <button
-                class="px-3 py-2 border-1 border-darkGrey rounded-full text-sm flex items-center gap-1  hover:bg-orange">
+                class="px-3 py-2 border-1 border-darkGrey rounded-full text-sm flex items-center gap-1  hover:shadow-(--cyanShadow) hover:scale-[110%] transition-all duration-500">
                 Source Code
                 <CdSourceControl />
             </button>
@@ -29,7 +29,8 @@
                 Frontend
                 <ul class="flex justify-start">
                     <li class="p-1 text-sm" v-for="(item, index) in project?.frontend" :key="index">
-                        <div class="px-2 bg-orange rounded-full text-black">{{ item }}</div>
+                        <div class="px-2 bg-purple-600/70 rounded-full text-white font-mono ">{{ item }}
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -38,7 +39,7 @@
                 Backend
                 <ul class="flex justify-start">
                     <li class="p-1 text-sm" v-for="(item, index) in project?.backend" :key="index">
-                        <div class="px-2 bg-orange rounded-full text-black">{{ item }}</div>
+                        <div class="px-2  bg-purple-600/70 rounded-full text-white font-mono ">{{ item }}</div>
                     </li>
                 </ul>
             </div>
@@ -47,7 +48,7 @@
                 Database
                 <ul class="flex justify-start">
                     <li class="p-1 text-sm" v-for="(item, index) in project?.database" :key="index">
-                        <div class="px-2 bg-orange rounded-full text-black">{{ item }}</div>
+                        <div class="px-2  bg-purple-600/70 rounded-full text-white font-mono ">{{ item }}</div>
                     </li>
                 </ul>
             </div>
@@ -61,9 +62,7 @@
 import { ref } from 'vue'
 import { AkArrowForwardThick } from '@kalimahapps/vue-icons';
 import { CdSourceControl } from '@kalimahapps/vue-icons';
-const props = defineProps({
-    project: Object
-})
+const props = defineProps(['project', 'id']);
 
 const card = ref(null)
 
