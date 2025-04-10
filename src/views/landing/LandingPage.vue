@@ -6,6 +6,7 @@
     <AboutMeMain />
     <SkillsMain />
     <SubSkill />
+    <ExperienceMain />
     <!--
         <ExperienceMain />
         <ProjectMain />

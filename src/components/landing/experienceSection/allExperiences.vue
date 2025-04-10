@@ -3,7 +3,7 @@
         <template v-for="(item, index) in experiences" :key="index">
             <SingleExperience :experience="item" />
             <div v-if="index < experiences.length - 1" class="lg:block sm:hidden">
-                <CgArrowLongRightC v-motion="fadeIn('right', 0)" class="text-6xl text-orange" />
+                <CgArrowLongRightC v-motion="fadeIn('right', 0)" class="text-6xl text-lightBluish" />
             </div>
         </template>
     </div>
@@ -14,22 +14,6 @@ import { fadeIn } from '../framerMotion/variants';
 import SingleExperience from './singleExperience.vue';
 import { CgArrowLongRightC } from '@kalimahapps/vue-icons';
 const experiences = [
-    {
-        job: "Intermediate-Student",
-        company: "Chittagong University College",
-        date: "2018 - 2020",
-        responsibilities: [
-            "I passed my HSC examination under the Chittagong Board with a GPA of 5.00.",
-        ]
-    },
-    {
-        job: "Student",
-        company: "Khulna University of Engineering and Technology",
-        date: "2022 - present",
-        responsibilities: [
-            "Completing my undergrad program",
-        ]
-    },
     {
         job: "Front-End Developer",
         company: "N/A",

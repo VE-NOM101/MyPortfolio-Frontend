@@ -2,7 +2,7 @@
     <div class="flex lg:flex-row sm:flex-col gap-4 items-center justify-center">
         <!-- Experience top left -->
         <div class="flex flex-col gap-6 w-[300px]">
-            <p class="text-orange font-bold uppercase text-3xl font-special text-center">
+            <p class="text-purple-500 font-bold uppercase text-3xl font-special text-center">
                 Since 2023
             </p>
             <div class="flex justify-center items-center gap-4">
