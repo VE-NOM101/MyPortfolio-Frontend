@@ -1,6 +1,6 @@
 <!-- App.vue -->
 <template>
-    <div id="projects" class="max-w-[1200px] mx-auto px-4">
+    <div id="projects" class="relative max-w-[1200px] mx-auto px-4">
         <div v-motion="fadeIn('down', 0)">
             <ProjectText />
         </div>
@@ -14,6 +14,7 @@
                 :project="project" :id="index" />
         </div>
 
+        <div class="  shadow-(--purpleMediumShadow) absolute top-[50%] left-[50%] -z-10 animate-pulse"></div>
     </div>
 </template>
 

@@ -8,6 +8,7 @@
     <SubSkill />
     <ExperienceMain />
     <ProjectMain />
+    <EducationMain />
     <!--
         
         <EducationMain />

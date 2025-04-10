@@ -5,7 +5,7 @@
         </div>
         <div class="flex flex-col justify-center items-center gap-4 max-w-[900px] mx-auto mt-12">
             <template v-for="(item, index) in awards" :key="index">
-                <AkArrowUpThick :class="['flex', 'text-orange', 'text-2xl', index == 0 ? 'hidden' : 'block']" />
+                <AkArrowUpThick :class="['flex', 'text-lightBluish', 'text-2xl', index == 0 ? 'hidden' : 'block']" />
                 <singleEducation v-motion-roll-visible-once-left :duration="500" :name="item.name" :year="item.year"
                     :institute="item.institute" :remark="item.remark" :place="item.place" />
             </template>
@@ -15,7 +15,7 @@
         <!-- Gradient -->
         <div>
             <div class="  shadow-(--cyanMediumShadow) absolute top-[500px] left-0 -z-10 animate-pulse"></div>
-            <div class="  shadow-(--orangeMediumShadow) absolute top-0 right-0 -z-10 animate-pulse"></div>
+            <div class="  shadow-(--purpleMediumShadow) absolute top-0 right-0 -z-10 animate-pulse"></div>
         </div>
     </div>
 </template>
