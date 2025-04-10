@@ -1,6 +1,6 @@
 <template>
     <div
-        class="w-full border-y bg-brown border-lightGrey text-lightGrey flex justify-around uppercase lg:text-4xl md:text-2xl sm:text-4xl py-8 md:flex-row sm:flex-col items-center gap-4">
+        class="w-full border-y bg-bluish/50 border-lightGrey text-lightGrey flex justify-around uppercase lg:text-4xl md:text-2xl sm:text-4xl py-6 md:flex-row sm:flex-col items-center gap-4">
         <div class="flex">
             <CaExplore class="md:block sm:hidden" />
             <p class="md:block sm:hidden">
